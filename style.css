@@ -9,8 +9,8 @@
 :root{
     --primary-text-color: rgb(255, 90, 1);
     --secondary-text-color: rgb(128, 1, 255);
-    --accent-color: rgb(1, 255, 145);
-    --accent-color-dark: rgb(255, 255, 1);
+    --accent-color: rgb(1, 200, 255);
+    --accent-color-dark: rgb(5, 1, 255);
 
 }
 body{
@@ -58,11 +58,11 @@ nav{
 }
 
 .company-logo img{
-    width: 120px;
+    width: 80px;
 }
 
 .nav-links ul{
-    gap: 16px;
+    gap: 16px; /*jahan flex hoga vaha gap*/
 }
 .hover-link{
     cursor: pointer;
@@ -76,5 +76,24 @@ nav{
 
 .search-bar{
     height: 32px;
-    gap: 8px;
+    gap: 8px; /*jahan flex hoga vaha gap*/
+}
+.news-input{
+    width: 200px;
+    height:100% ;
+    padding-inline: 12px;  /*0 12px*/
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+}
+.search-button{
+    background-color: var(--accent-color);
+    color: white;
+    padding: 6px 24px;
+    border: none;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: var(--accent-color-dark);
 }
