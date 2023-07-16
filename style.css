@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: rgb(255, 90, 1);
+    --secondary-text-color: rgb(128, 1, 255);
+    --accent-color: rgb(1, 255, 145);
+    --accent-color-dark: rgb(255, 255, 1);
+
+}
+body{
+    font-family: Lato ,"sans-serif";
+    color: var(--primary-text-color);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--secondary-text-color);
+    line-height:  1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* ///UTILITY CLASSES*/
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline : auto;
+    overflow: hidden;
+}
+
+nav{
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav{
+        justify-content: space-between;
+        padding: 0 8px;
+}
+
+.company-logo img{
+    width: 120px;
+}
+
+.nav-links ul{
+    gap: 16px;
+}
+.hover-link{
+    cursor: pointer;
+}
+.hover-link:hover{
+    color: var(--secondary-text-color);
+}
+.hover-link:active{
+    color: var(--accent-color);
+}
+
+.search-bar{
+    height: 32px;
+    gap: 8px;
+}
