@@ -7,7 +7,7 @@
 }
 
 :root{
-    --primary-text-color: rgb(255, 90, 1);
+    --primary-text-color: rgb(16, 16, 16);
     --secondary-text-color: rgb(128, 1, 255);
     --accent-color: rgb(1, 200, 255);
     --accent-color-dark: rgb(5, 1, 255);
